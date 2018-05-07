@@ -1,0 +1,33 @@
+---
+title: "Scrollama Demo with RMarkdown: Basic"
+output: 
+  html_document:
+    theme: null
+    mathjax: null
+    highlight: null
+    css: basic/basic.css
+    includes:
+      in_header: [polyfill/intersectionobserver.html, polyfill/nodelistforeach.html]
+      after_body: 
+        [assets/scrollama.html, basic/basic.html]
+---
+
+[[scrollama.js](https://github.com/russellgoldenberg/scrollama)]{.intro__overline}
+
+# Demo: basic {#intro}
+
+[Start scrolling to see how it works.]{.intro__dek}
+
+## {#scroll}
+
+### {.scroll__text}
+
+#### STEP 1 {.step data-step='1'}
+
+#### STEP 2 {.step data-step='2'}
+
+#### STEP 3 {.step data-step='3'}
+
+#### STEP 4 {.step data-step='4'}
+
+### {#outro}
