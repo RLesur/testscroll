@@ -1,0 +1,35 @@
+---
+title: ">Scrollama Demo: Progress"
+output: 
+  html_document: 
+    css: assets/demo.css
+---
+
+[[scrollama.js](https://github.com/russellgoldenberg/scrollama)]{.intro__overline}
+
+# Demo: Progress {#intro}
+
+[Start scrolling to see how it works.]{.intro__dek}
+
+## {#scroll}
+
+### {.scroll__text}
+
+#### STEP 1 {.step data-step='250,220,0'}
+[0%]{.progress}
+
+#### STEP 2 {.step data-step='50,250,200'}
+[0%]{.progress}
+
+### {#outro}
+
+```{r, echo=FALSE}
+r2d3::r2d3(script = 'progress/progress.js', 
+           d3_version = "4",
+           dependencies = 
+             c('polyfill/intersectionobserver.js', 
+                'assets/scrollama.min.js'
+             )
+)
+```
+
