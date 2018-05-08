@@ -2,10 +2,7 @@
 title: "Scrollama Demo with RMarkdown: Basic"
 output: 
   html_document:
-    theme: null
-    mathjax: null
-    highlight: null
-    css: basic/basic.css
+    css: assets/demo.css
     includes:
       in_header: [polyfill/intersectionobserver.html, polyfill/nodelistforeach.html]
       after_body: 
