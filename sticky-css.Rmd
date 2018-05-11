@@ -1,0 +1,62 @@
+---
+title: "Scrollama Demo: Sticky CSS"
+output: 
+  html_document:
+    theme: null
+    mathjax: null
+    highlight: null
+    css: assets/demo-sticky-css.css
+    includes:
+      after_body: [assets/d3.v4.html, polyfill/stickyfill.html, polyfill/intersectionobserver.html, assets/scrollama.html, sticky-css/sticky-css.html]
+---
+
+[[scrollama.js](https://github.com/russellgoldenberg/scrollama)]{.intro__overline}
+
+
+:::{#scroll}
+
+::::{.scroll__graphic .sticky}
+
+:::::{.chart}
+
+0
+
+:::::
+
+::::
+
+
+::::{.scroll__text}
+
+:::::{.step data-step='1'}
+
+STEP 1 
+
+:::::
+
+:::::{.step data-step='2'}
+
+STEP 2 
+
+:::::
+
+:::::{.step data-step='3'}
+
+STEP 3 
+
+:::::
+
+:::::{.step data-step='4'}
+
+STEP 4 
+
+:::::
+
+::::
+
+:::
+
+### {#outro}
+
+### {.debug}
+
